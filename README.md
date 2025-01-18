@@ -15,11 +15,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Building a Context-Aware AI Agent with LlamaIndex: A Deep Dive into a Code-First Agent Architecture
+## Building a Context-Aware AI Agent with LlamaIndex: A Deep Dive into a Code-First Agent Architecture
 
 In this post, I'll walk through the development of a sophisticated AI agent that combines the power of large language models, RAG (Retrieval-Augmented Generation), and containerized deployment to create a versatile, context-aware system for automated problem-solving and analysis.
 
-Architecture Overview
+# Architecture Overview
 
 The system is built on several key components:
 - A code-first approach using LlamaIndex as the foundation
@@ -31,12 +31,12 @@ The system is built on several key components:
 - RAG pipeline for domain-specific knowledge integration
 - Snowflake integration for security analytics
 
-Core Components Deep Dive
+# Core Components Deep Dive
 
-Foundation: LLM Integration
+# Foundation: LLM Integration
 The agent wraps around powerful language models like GPT or Claude, serving as an intelligent intermediary between users and these models. Rather than passing queries directly, the agent enriches them with context, domain knowledge, and previous interaction history to generate more accurate and contextual responses.
 
-RAG Pipeline Implementation
+# RAG Pipeline Implementation
 The Retrieval-Augmented Generation pipeline serves as the agent's knowledge base, specifically focusing on:
 - Python library documentation
 - Existing Python scripts and code samples
@@ -45,7 +45,7 @@ The Retrieval-Augmented Generation pipeline serves as the agent's knowledge base
 
 The RAG system indexes this information in a vector store, allowing for semantic search and relevant information retrieval during query processing.
 
-Memory Architecture
+# Memory Architecture
 The agent's memory system is implemented using a real-time vector store that:
 - Captures and indexes conversation history(Global Variables, Code, and Responses)
 - Summarizes previous interactions for context
@@ -54,37 +54,37 @@ The agent's memory system is implemented using a real-time vector store that:
 
 This creates a learning loop where the agent becomes more knowledgeable and context-aware over time.
 
-Security Analytics Integration
+# Security Analytics Integration
 The Snowflake integration demonstrates the agent's practical applications in security:
 - Analyzes user login patterns
 - Identifies potential security threats
 - Creates predictive models and analysis charts for threat detection
 - Generates automated response recommendations
 
-Multi-Agent Orchestration
+# Multi-Agent Orchestration
 One of the most powerful features is the agent's ability to spawn sub-agents for specialized tasks:
 1. Task Decomposition: Breaking complex queries into subtasks
 2. Agent Specialization: Creating purpose-built agents for specific functions
 3. Tool Creation: Dynamically generating and storing reusable function tools
 4. Resource Management: Orchestrating multiple agents efficiently
 
-Technical Implementation Details
+## Technical Implementation Details
 
-Docker Containerization
+# Docker Containerization
 The system is containerized using Docker, providing:
 - Consistent deployment environments
 - Scalability across different platforms
 - Isolated runtime environments
 - Easy dependency management
 
-Remote Jupyter Integration
+# Remote Jupyter Integration
 The remote Jupyter server connectivity enables:
 - Interactive development and debugging
 - Real-time monitoring of agent behavior
 - Easy system updates and modifications
 
 
-Results and Impact
+# Results and Impact
 
 The system demonstrates several key capabilities:
 - Reduced solution development time through automated code generation
@@ -93,7 +93,7 @@ The system demonstrates several key capabilities:
 - Scalable architecture for growing requirements
 - Continuous learning through RAG pipeline updates
 
-Future Enhancements
+# Future Enhancements
 
 Potential areas for future development include:
 - Enhanced multi-modal capabilities
